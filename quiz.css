@@ -1,0 +1,64 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    
+}
+body
+{
+    background-color: rgb(181, 233, 243);
+}
+.container
+{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box
+{
+    width: 50%;
+    background-color: rgb(241, 235, 235);
+    border-radius: 8px;
+    padding: 20px 20px;
+    box-shadow:  0 8px 16px rgb(54, 95, 124);
+}
+.buttons
+{
+    margin: auto;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+button
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: blue;
+    border: none;
+    color: white;
+    box-shadow:  0 8px 16px rgb(45, 6, 135);
+    font-weight: 700;
+    opacity: 0.5;
+}
+.score
+{
+    border-radius: 10px;
+    /* border: 3px solid black; */
+    color: black;
+    display: none;
+}
+.playagain
+{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(44, 181, 53);
+    border: none;
+    color: white;
+    font-weight: 700;
+    opacity: 1;
+
+}

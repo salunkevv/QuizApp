@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz-App</title>
+    <link rel="stylesheet" href="./quiz.css">
+    <link rel="icon" href="https://tse1.mm.bing.net/th?id=OIP.ZIyrox6WOpCPtbAh_uLcSQAAAA&pid=Api&P=0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body onload="loader()">
+    <div class="container">
+        <div class="box" id="boxx">
+            <div class="questions">
+                <h2 id="questionBox">This is the dummy questions</h2>
+            </div><br><br><br>
+            <div class="answer">
+                <input class="ansopt" type="radio" name="option" value="a" id="opt1"  >
+                <label for="opt1" class="common" >Option A</label><br><br>
+                <input class="ansopt" type="radio" name="option" value="b" id="opt2"> 
+                <label for="opt2"  class="common">Option B</label><br><br>
+                <input class="ansopt" type="radio" name="option" value="c" id="opt3"  >
+                <label for="opt3"  class="common">Option C</label><br><br>
+                <input  class="ansopt"type="radio" name="option" value="d" id="opt4"  >
+                <label for="opt4"  class="common">Option D</label>
+            </div><br><br><br><br>
+            <div class="buttons" >
+                <button type="submit" onclick="submitted()" style="opacity: 1;"> submit.. <i class="fa-solid fa-circle-check" ></i></button>
+                <button type="button" disabled onclick="next()"> Next.. <i class="fa-sharp fa-solid fa-forward"></i></button>
+            </div><br><br>
+            <div class="score">
+                <div class="marks">
+                    <marquee ><h2>your</h2> </marquee>
+                </div>
+            </div>
+        </div>
+        
+    </div> 
+    <script src="./quiz.js"></script>
+</body>
+</html>
