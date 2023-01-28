@@ -27,7 +27,7 @@ const questions = [
         "question": "The correct sequence of HTML tags for starting a webpage is ",
         "a": "Head, Title, HTML, body",
         "b": "HTML, Body, Title, Head",
-        "c": "HTML, Footer, Title, Body",
+        "c": "HTML,  Footer, Title, Body",
         "d": "HTML, Head, Title, Body",
         "correct": "d"
     },
